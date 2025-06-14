@@ -28,7 +28,7 @@ function ContactUs() {
         message
       };
 
-      const response = await fetch("http://localhost:5001/api/contact/submit", {
+      const response = await fetch("https://seraphim1-1.onrender.com/api/contact/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(backendData),
