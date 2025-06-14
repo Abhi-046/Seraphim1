@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: 'https://seraphim1-6yok.vercel.app/',  // Your React app's URL
+  origin: 'https://seraphim1-6yok.vercel.app',  // Your React app's URL
   credentials: true
 }));
 app.use(bodyParser.json());
